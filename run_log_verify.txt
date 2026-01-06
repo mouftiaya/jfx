@@ -1,0 +1,804 @@
+﻿mvn.cmd : WARNING: A 
+restricted method in 
+java.lang.System has 
+been called
+At line:1 char:1
++ & "C:\Program Files
+\JetBrains\IntelliJ 
+IDEA 2025.2.4\plugins
+\maven\li ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (WARNING   
+ : A rest...has b    
+een called:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+WARNING: java.lang.Sy
+stem::load has been 
+called by org.fusesou
+rce.jansi.internal.Ja
+nsiLoader in an 
+unnamed module (file:
+/C:/Program%20Files/J
+etBrains/IntelliJ%20I
+DEA%202025.2.4/plugin
+s/maven/lib/maven3/li
+b/jansi-2.4.1.jar)
+WARNING: Use --enable
+-native-access=ALL-UN
+NAMED to avoid a 
+warning for callers 
+in this module
+WARNING: Restricted 
+methods will be 
+blocked in a future 
+release unless 
+native access is 
+enabled
+
+WARNING: A 
+terminally 
+deprecated method in 
+sun.misc.Unsafe has 
+been called
+WARNING: sun.misc.Uns
+afe::objectFieldOffse
+t has been called by 
+com.google.common.uti
+l.concurrent.Abstract
+Future$UnsafeAtomicHe
+lper (file:/C:/Progra
+m%20Files/JetBrains/I
+ntelliJ%20IDEA%202025
+.2.4/plugins/maven/li
+b/maven3/lib/guava-33
+.2.1-jre.jar)
+WARNING: Please 
+consider reporting 
+this to the 
+maintainers of class 
+com.google.common.uti
+l.concurrent.Abstract
+Future$UnsafeAtomicHe
+lper
+WARNING: sun.misc.Uns
+afe::objectFieldOffse
+t will be removed in 
+a future release
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.stockSystem:stock-management-system >---------------
+[INFO] Building stock-management-system 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] 6 problems were encountered while building the effective model for org.openjfx:javafx-controls:jar:17.0.8 during dependency collection step for project (use -X to see details)
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ stock-management-system ---
+[INFO] Deleting C:\Users\nabil\Desktop\jfx\target
+[INFO] 
+[INFO] >>> javafx:0.0.8:run (default-cli) > process-classes @ stock-management-system >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ stock-management-system ---
+[INFO] Copying 6 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ stock-management-system ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 28 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] <<< javafx:0.0.8:run (default-cli) < process-classes @ stock-management-system <<<
+[INFO] 
+[INFO] 
+[INFO] --- javafx:0.0.8:run (default-cli) @ stock-management-system ---
+WARNING: A 
+restricted method in 
+java.lang.System has 
+been called
+WARNING: java.lang.Sy
+stem::load has been 
+called by com.sun.gla
+ss.utils.NativeLibLoa
+der in module 
+javafx.graphics (file
+:/C:/Users/nabil/.m2/
+repository/org/openjf
+x/javafx-graphics/17.
+0.8/javafx-graphics-1
+7.0.8-win.jar)
+WARNING: Use --enable
+-native-access=javafx
+.graphics to avoid a 
+warning for callers 
+in this module
+WARNING: Restricted 
+methods will be 
+blocked in a future 
+release unless 
+native access is 
+enabled
+
+Jan 06, 2026 5:27:41 
+PM org.hibernate.jpa.
+internal.util.LogHelp
+er logPersistenceUnit
+Information
+INFO: HHH000204: 
+Processing 
+PersistenceUnitInfo 
+[name: stock-manageme
+nt-unit]
+Jan 06, 2026 5:27:41 
+PM org.hibernate.Vers
+ion logVersion
+INFO: HHH000412: 
+Hibernate ORM core 
+version 6.4.1.Final
+Jan 06, 2026 5:27:41 
+PM org.hibernate.cach
+e.internal.RegionFact
+oryInitiator 
+initiateService
+INFO: HHH000026: 
+Second-level cache 
+disabled
+Jan 06, 2026 5:27:41 
+PM org.hibernate.engi
+ne.jdbc.connections.i
+nternal.DriverManager
+ConnectionProviderImp
+l configure
+WARN: HHH10001002: 
+Using built-in 
+connection pool (not 
+intended for 
+production use)
+Jan 06, 2026 5:27:41 
+PM org.hibernate.engi
+ne.jdbc.connections.i
+nternal.DriverManager
+ConnectionProviderImp
+l buildCreator
+INFO: HHH10001005: 
+Loaded JDBC driver 
+class: com.mysql.cj.j
+dbc.Driver
+Jan 06, 2026 5:27:41 
+PM org.hibernate.engi
+ne.jdbc.connections.i
+nternal.DriverManager
+ConnectionProviderImp
+l buildCreator
+INFO: HHH10001012: 
+Connecting with JDBC 
+URL [jdbc:mysql://loc
+alhost:3306/stock_db?
+createDatabaseIfNotEx
+ist=true]
+Jan 06, 2026 5:27:41 
+PM org.hibernate.engi
+ne.jdbc.connections.i
+nternal.DriverManager
+ConnectionProviderImp
+l buildCreator
+INFO: HHH10001001: 
+Connection 
+properties: 
+{user=root, 
+password=****}
+Jan 06, 2026 5:27:41 
+PM org.hibernate.engi
+ne.jdbc.connections.i
+nternal.DriverManager
+ConnectionProviderImp
+l buildCreator
+INFO: HHH10001003: 
+Autocommit mode: 
+false
+Jan 06, 2026 5:27:41 
+PM org.hibernate.engi
+ne.jdbc.connections.i
+nternal.DriverManager
+ConnectionProviderImp
+l$PooledConnections 
+<init>
+INFO: HHH10001115: 
+Connection pool 
+size: 20 (min=1)
+Jan 06, 2026 5:27:42 
+PM org.hibernate.engi
+ne.jdbc.dialect.inter
+nal.DialectFactoryImp
+l constructDialect
+WARN: HHH90000025: 
+MySQLDialect does 
+not need to be 
+specified explicitly 
+using 
+'hibernate.dialect' 
+(remove the property 
+setting and it will 
+be selected by 
+default)
+Jan 06, 2026 5:27:43 
+PM org.hibernate.engi
+ne.transaction.jta.pl
+atform.internal.JtaPl
+atformInitiator 
+initiateService
+INFO: HHH000489: No 
+JTA platform 
+available (set 'hiber
+nate.transaction.jta.
+platform' to enable 
+JTA platform 
+integration)
+Jan 06, 2026 5:27:43 
+PM org.hibernate.reso
+urce.transaction.back
+end.jdbc.internal.Ddl
+TransactionIsolatorNo
+nJtaImpl 
+getIsolatedConnection
+INFO: HHH10001501: 
+Connection obtained 
+from 
+JdbcConnectionAccess 
+[org.hibernate.engine
+.jdbc.env.internal.Jd
+bcEnvironmentInitiato
+r$ConnectionProviderJ
+dbcConnectionAccess@1
+91d43ad] for 
+(non-JTA) DDL 
+execution was not in 
+auto-commit mode; 
+the Connection 
+'local transaction' 
+will be committed 
+and the Connection 
+will be set into 
+auto-commit mode.
+Hibernate: 
+    select
+        p1_0.id,
+        p1_0.buyPrice,
+        p1_0.category_id,
+        p1_0.description,
+        p1_0.name,
+        p1_0.quantity,
+        p1_0.sellPrice,
+        p1_0.sku,
+        p1_0.supplier_id 
+    from
+        products p1_0
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.description,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.contactInfo,
+        s1_0.name 
+    from
+        suppliers s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.description,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.contactInfo,
+        s1_0.name 
+    from
+        suppliers s1_0 
+    where
+        s1_0.id=?
+Database already seeded.
+Exception in 
+Application start 
+method
+java.lang.reflect.Inv
+ocationTargetExceptio
+n
+	at java.base/jdk.int
+ernal.reflect.DirectM
+ethodHandleAccessor.i
+nvoke(DirectMethodHan
+dleAccessor.java:119)
+	at java.base/java.la
+ng.reflect.Method.inv
+oke(Method.java:565)
+	at javafx.graphics/c
+om.sun.javafx.applica
+tion.LauncherImpl.lau
+nchApplicationWithArg
+s(LauncherImpl.java:4
+65)
+	at javafx.graphics/c
+om.sun.javafx.applica
+tion.LauncherImpl.lau
+nchApplication(Launch
+erImpl.java:364)
+	at java.base/jdk.int
+ernal.reflect.DirectM
+ethodHandleAccessor.i
+nvoke(DirectMethodHan
+dleAccessor.java:104)
+	at java.base/java.la
+ng.reflect.Method.inv
+oke(Method.java:565)
+	at java.base/sun.lau
+ncher.LauncherHelper$
+FXHelper.main(Launche
+rHelper.java:1171)
+Caused by: java.lang.
+RuntimeException: 
+Exception in 
+Application start 
+method
+	at javafx.graphics/c
+om.sun.javafx.applica
+tion.LauncherImpl.lau
+nchApplication1(Launc
+herImpl.java:901)
+	at javafx.graphics/c
+om.sun.javafx.applica
+tion.LauncherImpl.lam
+bda$launchApplication
+$2(LauncherImpl.java:
+196)
+	at java.base/java.la
+ng.Thread.run(Thread.
+java:1474)
+Caused by: javafx.fxm
+l.LoadException: 
+/C:/Users/nabil/Deskt
+op/jfx/target/classes
+/view/dashboard.fxml:
+24
+
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.con
+structLoadException(F
+XMLLoader.java:2714)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+dImpl(FXMLLoader.java
+:2692)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+dImpl(FXMLLoader.java
+:2555)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+d(FXMLLoader.java:252
+3)
+	at com.stockSystem.A
+pp.loadFXML(App.java:
+26)
+	at com.stockSystem.A
+pp.start(App.java:18)
+	at javafx.graphics/c
+om.sun.javafx.applica
+tion.LauncherImpl.lam
+bda$launchApplication
+1$9(LauncherImpl.java
+:847)
+	at javafx.graphics/c
+om.sun.javafx.applica
+tion.PlatformImpl.lam
+bda$runAndWait$12(Pla
+tformImpl.java:484)
+	at javafx.graphics/c
+om.sun.javafx.applica
+tion.PlatformImpl.lam
+bda$runLater$10(Platf
+ormImpl.java:457)
+	at java.base/java.se
+curity.AccessControll
+er.doPrivileged(Acces
+sController.java:138)
+	at javafx.graphics/c
+om.sun.javafx.applica
+tion.PlatformImpl.lam
+bda$runLater$11(Platf
+ormImpl.java:456)
+	at javafx.graphics/c
+om.sun.glass.ui.Invok
+eLaterDispatcher$Futu
+re.run(InvokeLaterDis
+patcher.java:96)
+	at javafx.graphics/c
+om.sun.glass.ui.win.W
+inApplication._runLoo
+p(Native Method)
+	at javafx.graphics/c
+om.sun.glass.ui.win.W
+inApplication.lambda$
+runLoop$3(WinApplicat
+ion.java:184)
+	... 1 more
+Caused by: java.lang.
+NumberFormatException
+: For input string: 
+"infinity"
+	at java.base/jdk.int
+ernal.math.FloatingDe
+cimal.check(FloatingD
+ecimal.java:2324)
+	at java.base/jdk.int
+ernal.math.FloatingDe
+cimal.readJavaFormatS
+tring(FloatingDecimal
+.java:1928)
+	at java.base/jdk.int
+ernal.math.FloatingDe
+cimal.parseDouble(Flo
+atingDecimal.java:110
+)
+	at java.base/java.la
+ng.Double.parseDouble
+(Double.java:971)
+	at java.base/java.la
+ng.Double.valueOf(Dou
+ble.java:933)
+	at javafx.fxml/com.s
+un.javafx.fxml.BeanAd
+apter.coerce(BeanAdap
+ter.java:451)
+	at javafx.fxml/com.s
+un.javafx.fxml.BeanAd
+apter.put(BeanAdapter
+.java:259)
+	at javafx.fxml/com.s
+un.javafx.fxml.BeanAd
+apter.put(BeanAdapter
+.java:54)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Ele
+ment.applyProperty(FX
+MLLoader.java:523)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Ele
+ment.processValue(FXM
+LLoader.java:373)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Ele
+ment.processPropertyA
+ttribute(FXMLLoader.j
+ava:335)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Ele
+ment.processInstanceP
+ropertyAttributes(FXM
+LLoader.java:245)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Val
+ueElement.processEndE
+lement(FXMLLoader.jav
+a:778)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.pro
+cessEndElement(FXMLLo
+ader.java:2961)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+dImpl(FXMLLoader.java
+:2646)
+	... 13 more
+Exception running 
+application 
+com.stockSystem.App
+[ERROR] Command execution failed.
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+    at org.apache.commons.exec.DefaultExecutor.executeInternal (DefaultExecutor.java:404)
+    at org.apache.commons.exec.DefaultExecutor.execute (DefaultExecutor.java:166)
+    at org.openjfx.JavaFXBaseMojo.executeCommandLine (JavaFXBaseMojo.java:567)
+    at org.openjfx.JavaFXBaseMojo.executeCommandLine (JavaFXBaseMojo.java:434)
+    at org.openjfx.JavaFXRunMojo.execute (JavaFXRunMojo.java:105)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:104)
+    at java.lang.reflect.Method.invoke (Method.java:565)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+org.apache.commons.ex
+ec.ExecuteException: 
+Process exited with 
+an error: 1 (Exit 
+value: 1)
+	at org.apache.common
+s.exec.DefaultExecuto
+r.executeInternal(Def
+aultExecutor.java:404
+)
+	at org.apache.common
+s.exec.DefaultExecuto
+r.execute(DefaultExec
+utor.java:166)
+	at org.openjfx.JavaF
+XBaseMojo.executeComm
+andLine(JavaFXBaseMoj
+o.java:567)
+	at org.openjfx.JavaF
+XBaseMojo.executeComm
+andLine(JavaFXBaseMoj
+o.java:434)
+	at org.openjfx.JavaF
+XRunMojo.execute(Java
+FXRunMojo.java:105)
+	at org.apache.maven.
+plugin.DefaultBuildPl
+uginManager.executeMo
+jo(DefaultBuildPlugin
+Manager.java:126)
+	at org.apache.maven.
+lifecycle.internal.Mo
+joExecutor.doExecute2
+(MojoExecutor.java:32
+8)
+	at org.apache.maven.
+lifecycle.internal.Mo
+joExecutor.doExecute(
+MojoExecutor.java:316
+)
+	at org.apache.maven.
+lifecycle.internal.Mo
+joExecutor.execute(Mo
+joExecutor.java:212)
+	at org.apache.maven.
+lifecycle.internal.Mo
+joExecutor.execute(Mo
+joExecutor.java:174)
+	at org.apache.maven.
+lifecycle.internal.Mo
+joExecutor.access$000
+(MojoExecutor.java:75
+)
+	at org.apache.maven.
+lifecycle.internal.Mo
+joExecutor$1.run(Mojo
+Executor.java:162)
+	at org.apache.maven.
+plugin.DefaultMojosEx
+ecutionStrategy.execu
+te(DefaultMojosExecut
+ionStrategy.java:39)
+	at org.apache.maven.
+lifecycle.internal.Mo
+joExecutor.execute(Mo
+joExecutor.java:159)
+	at org.apache.maven.
+lifecycle.internal.Li
+fecycleModuleBuilder.
+buildProject(Lifecycl
+eModuleBuilder.java:1
+05)
+	at org.apache.maven.
+lifecycle.internal.Li
+fecycleModuleBuilder.
+buildProject(Lifecycl
+eModuleBuilder.java:7
+3)
+	at org.apache.maven.
+lifecycle.internal.bu
+ilder.singlethreaded.
+SingleThreadedBuilder
+.build(SingleThreaded
+Builder.java:53)
+	at org.apache.maven.
+lifecycle.internal.Li
+fecycleStarter.execut
+e(LifecycleStarter.ja
+va:118)
+	at org.apache.maven.
+DefaultMaven.doExecut
+e(DefaultMaven.java:2
+61)
+	at org.apache.maven.
+DefaultMaven.doExecut
+e(DefaultMaven.java:1
+73)
+	at org.apache.maven.
+DefaultMaven.execute(
+DefaultMaven.java:101
+)
+	at org.apache.maven.
+cli.MavenCli.execute(
+MavenCli.java:906)
+	at org.apache.maven.
+cli.MavenCli.doMain(M
+avenCli.java:283)
+	at org.apache.maven.
+cli.MavenCli.main(Mav
+enCli.java:206)
+	at java.base/jdk.int
+ernal.reflect.DirectM
+ethodHandleAccessor.i
+nvoke(DirectMethodHan
+dleAccessor.java:104)
+	at java.base/java.la
+ng.reflect.Method.inv
+oke(Method.java:565)
+	at org.codehaus.plex
+us.classworlds.launch
+er.Launcher.launchEnh
+anced(Launcher.java:2
+55)
+	at org.codehaus.plex
+us.classworlds.launch
+er.Launcher.launch(La
+uncher.java:201)
+	at org.codehaus.plex
+us.classworlds.launch
+er.Launcher.mainWithE
+xitCode(Launcher.java
+:361)
+	at org.codehaus.plex
+us.classworlds.launch
+er.Launcher.main(Laun
+cher.java:314)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.761 s
+[INFO] Finished at: 2026-01-06T17:27:44+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.openjfx:javafx-maven-plugin:0.0.8:run (default-cli) on project stock-management-system: Error: Command execution failed. Process exited with an error: 1 (Exit value: 1) -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.openjfx:javafx-maven-plugin:0.0.8:run (default-cli) on project stock-management-system: Error
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:104)
+    at java.lang.reflect.Method.invoke (Method.java:565)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.MojoExecutionException: Error
+    at org.openjfx.JavaFXRunMojo.execute (JavaFXRunMojo.java:122)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:104)
+    at java.lang.reflect.Method.invoke (Method.java:565)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.MojoExecutionException: Command execution failed.
+    at org.openjfx.JavaFXRunMojo.execute (JavaFXRunMojo.java:116)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:104)
+    at java.lang.reflect.Method.invoke (Method.java:565)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+    at org.apache.commons.exec.DefaultExecutor.executeInternal (DefaultExecutor.java:404)
+    at org.apache.commons.exec.DefaultExecutor.execute (DefaultExecutor.java:166)
+    at org.openjfx.JavaFXBaseMojo.executeCommandLine (JavaFXBaseMojo.java:567)
+    at org.openjfx.JavaFXBaseMojo.executeCommandLine (JavaFXBaseMojo.java:434)
+    at org.openjfx.JavaFXRunMojo.execute (JavaFXRunMojo.java:105)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:104)
+    at java.lang.reflect.Method.invoke (Method.java:565)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR] 
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

@@ -1,0 +1,1941 @@
+﻿mvn.cmd : WARNING: A 
+restricted method in 
+java.lang.System has 
+been called
+At line:1 char:1
++ & "C:\Program Files
+\JetBrains\IntelliJ 
+IDEA 2025.2.4\plugins
+\maven\li ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (WARNING   
+ : A rest...has b    
+een called:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+WARNING: java.lang.Sy
+stem::load has been 
+called by org.fusesou
+rce.jansi.internal.Ja
+nsiLoader in an 
+unnamed module (file:
+/C:/Program%20Files/J
+etBrains/IntelliJ%20I
+DEA%202025.2.4/plugin
+s/maven/lib/maven3/li
+b/jansi-2.4.1.jar)
+WARNING: Use --enable
+-native-access=ALL-UN
+NAMED to avoid a 
+warning for callers 
+in this module
+WARNING: Restricted 
+methods will be 
+blocked in a future 
+release unless 
+native access is 
+enabled
+
+WARNING: A 
+terminally 
+deprecated method in 
+sun.misc.Unsafe has 
+been called
+WARNING: sun.misc.Uns
+afe::objectFieldOffse
+t has been called by 
+com.google.common.uti
+l.concurrent.Abstract
+Future$UnsafeAtomicHe
+lper (file:/C:/Progra
+m%20Files/JetBrains/I
+ntelliJ%20IDEA%202025
+.2.4/plugins/maven/li
+b/maven3/lib/guava-33
+.2.1-jre.jar)
+WARNING: Please 
+consider reporting 
+this to the 
+maintainers of class 
+com.google.common.uti
+l.concurrent.Abstract
+Future$UnsafeAtomicHe
+lper
+WARNING: sun.misc.Uns
+afe::objectFieldOffse
+t will be removed in 
+a future release
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.stockSystem:stock-management-system >---------------
+[INFO] Building stock-management-system 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] 6 problems were encountered while building the effective model for org.openjfx:javafx-controls:jar:17.0.8 during dependency collection step for project (use -X to see details)
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ stock-management-system ---
+[INFO] Deleting C:\Users\nabil\Desktop\jfx\target
+[INFO] 
+[INFO] >>> javafx:0.0.8:run (default-cli) > process-classes @ stock-management-system >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ stock-management-system ---
+[INFO] Copying 8 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ stock-management-system ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 30 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] <<< javafx:0.0.8:run (default-cli) < process-classes @ stock-management-system <<<
+[INFO] 
+[INFO] 
+[INFO] --- javafx:0.0.8:run (default-cli) @ stock-management-system ---
+WARNING: A 
+restricted method in 
+java.lang.System has 
+been called
+WARNING: java.lang.Sy
+stem::load has been 
+called by com.sun.gla
+ss.utils.NativeLibLoa
+der in module 
+javafx.graphics (file
+:/C:/Users/nabil/.m2/
+repository/org/openjf
+x/javafx-graphics/17.
+0.8/javafx-graphics-1
+7.0.8-win.jar)
+WARNING: Use --enable
+-native-access=javafx
+.graphics to avoid a 
+warning for callers 
+in this module
+WARNING: Restricted 
+methods will be 
+blocked in a future 
+release unless 
+native access is 
+enabled
+
+Jan 06, 2026 5:48:29 
+PM org.hibernate.jpa.
+internal.util.LogHelp
+er logPersistenceUnit
+Information
+INFO: HHH000204: 
+Processing 
+PersistenceUnitInfo 
+[name: stock-manageme
+nt-unit]
+Jan 06, 2026 5:48:29 
+PM org.hibernate.Vers
+ion logVersion
+INFO: HHH000412: 
+Hibernate ORM core 
+version 6.4.1.Final
+Jan 06, 2026 5:48:29 
+PM org.hibernate.cach
+e.internal.RegionFact
+oryInitiator 
+initiateService
+INFO: HHH000026: 
+Second-level cache 
+disabled
+Jan 06, 2026 5:48:29 
+PM org.hibernate.engi
+ne.jdbc.connections.i
+nternal.DriverManager
+ConnectionProviderImp
+l configure
+WARN: HHH10001002: 
+Using built-in 
+connection pool (not 
+intended for 
+production use)
+Jan 06, 2026 5:48:29 
+PM org.hibernate.engi
+ne.jdbc.connections.i
+nternal.DriverManager
+ConnectionProviderImp
+l buildCreator
+INFO: HHH10001005: 
+Loaded JDBC driver 
+class: com.mysql.cj.j
+dbc.Driver
+Jan 06, 2026 5:48:29 
+PM org.hibernate.engi
+ne.jdbc.connections.i
+nternal.DriverManager
+ConnectionProviderImp
+l buildCreator
+INFO: HHH10001012: 
+Connecting with JDBC 
+URL [jdbc:mysql://loc
+alhost:3306/stock_db?
+createDatabaseIfNotEx
+ist=true]
+Jan 06, 2026 5:48:29 
+PM org.hibernate.engi
+ne.jdbc.connections.i
+nternal.DriverManager
+ConnectionProviderImp
+l buildCreator
+INFO: HHH10001001: 
+Connection 
+properties: 
+{user=root, 
+password=****}
+Jan 06, 2026 5:48:29 
+PM org.hibernate.engi
+ne.jdbc.connections.i
+nternal.DriverManager
+ConnectionProviderImp
+l buildCreator
+INFO: HHH10001003: 
+Autocommit mode: 
+false
+Jan 06, 2026 5:48:29 
+PM org.hibernate.engi
+ne.jdbc.connections.i
+nternal.DriverManager
+ConnectionProviderImp
+l$PooledConnections 
+<init>
+INFO: HHH10001115: 
+Connection pool 
+size: 20 (min=1)
+Jan 06, 2026 5:48:29 
+PM org.hibernate.engi
+ne.jdbc.dialect.inter
+nal.DialectFactoryImp
+l constructDialect
+WARN: HHH90000025: 
+MySQLDialect does 
+not need to be 
+specified explicitly 
+using 
+'hibernate.dialect' 
+(remove the property 
+setting and it will 
+be selected by 
+default)
+Jan 06, 2026 5:48:31 
+PM org.hibernate.engi
+ne.transaction.jta.pl
+atform.internal.JtaPl
+atformInitiator 
+initiateService
+INFO: HHH000489: No 
+JTA platform 
+available (set 'hiber
+nate.transaction.jta.
+platform' to enable 
+JTA platform 
+integration)
+Jan 06, 2026 5:48:31 
+PM org.hibernate.reso
+urce.transaction.back
+end.jdbc.internal.Ddl
+TransactionIsolatorNo
+nJtaImpl 
+getIsolatedConnection
+INFO: HHH10001501: 
+Connection obtained 
+from 
+JdbcConnectionAccess 
+[org.hibernate.engine
+.jdbc.env.internal.Jd
+bcEnvironmentInitiato
+r$ConnectionProviderJ
+dbcConnectionAccess@3
+162329] for 
+(non-JTA) DDL 
+execution was not in 
+auto-commit mode; 
+the Connection 
+'local transaction' 
+will be committed 
+and the Connection 
+will be set into 
+auto-commit mode.
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.passwordHash,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0
+Hibernate: 
+    insert 
+    into
+        users
+        (passwordHash, role, username) 
+    values
+        (?, ?, ?)
+Default Admin created: admin/admin
+WARNING: A 
+terminally 
+deprecated method in 
+sun.misc.Unsafe has 
+been called
+WARNING: sun.misc.Uns
+afe::allocateMemory 
+has been called by co
+m.sun.marlin.OffHeapA
+rray (file:/C:/Users/
+nabil/.m2/repository/
+org/openjfx/javafx-gr
+aphics/17.0.8/javafx-
+graphics-17.0.8-win.j
+ar)
+WARNING: Please 
+consider reporting 
+this to the 
+maintainers of class 
+com.sun.marlin.OffHea
+pArray
+WARNING: sun.misc.Uns
+afe::allocateMemory 
+will be removed in a 
+future release
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.passwordHash,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0
+javafx.fxml.LoadExcep
+tion: Error 
+resolving onAction='#
+handleAddProduct', 
+either the event 
+handler is not in 
+the Namespace or 
+there is an error in 
+the script.
+/C:/Users/nabil/Deskt
+op/jfx/target/classes
+/view/dashboard.fxml:
+42
+
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.con
+structLoadException(F
+XMLLoader.java:2710)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Ele
+ment.processEventHand
+lerAttributes(FXMLLoa
+der.java:621)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Val
+ueElement.processEndE
+lement(FXMLLoader.jav
+a:781)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.pro
+cessEndElement(FXMLLo
+ader.java:2961)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+dImpl(FXMLLoader.java
+:2646)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+dImpl(FXMLLoader.java
+:2555)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+d(FXMLLoader.java:252
+3)
+	at com.stockSystem.c
+ontroller.LoginContro
+ller.loadDashboard(Lo
+ginController.java:56
+)
+	at com.stockSystem.c
+ontroller.LoginContro
+ller.handleLogin(Logi
+nController.java:47)
+	at java.base/jdk.int
+ernal.reflect.DirectM
+ethodHandleAccessor.i
+nvoke(DirectMethodHan
+dleAccessor.java:104)
+	at java.base/java.la
+ng.reflect.Method.inv
+oke(Method.java:565)
+	at com.sun.javafx.re
+flect.Trampoline.invo
+ke(MethodUtil.java:77
+)
+	at java.base/jdk.int
+ernal.reflect.DirectM
+ethodHandleAccessor.i
+nvoke(DirectMethodHan
+dleAccessor.java:104)
+	at java.base/java.la
+ng.reflect.Method.inv
+oke(Method.java:565)
+	at javafx.base/com.s
+un.javafx.reflect.Met
+hodUtil.invoke(Method
+Util.java:275)
+	at javafx.fxml/com.s
+un.javafx.fxml.Method
+Helper.invoke(MethodH
+elper.java:84)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Met
+hodHandler.invoke(FXM
+LLoader.java:1854)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Con
+trollerMethodEventHan
+dler.handle(FXMLLoade
+r.java:1724)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventHandler.disp
+atchBubblingEvent(Com
+positeEventHandler.ja
+va:86)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:2
+34)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:1
+91)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventDispatcher.d
+ispatchBubblingEvent(
+CompositeEventDispatc
+her.java:59)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:58)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEventImpl(Ev
+entUtil.java:74)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEvent(EventU
+til.java:49)
+	at javafx.base/javaf
+x.event.Event.fireEve
+nt(Event.java:198)
+	at javafx.graphics/j
+avafx.scene.Node.fire
+Event(Node.java:8792)
+	at javafx.controls/j
+avafx.scene.control.B
+utton.fire(Button.jav
+a:203)
+	at javafx.controls/c
+om.sun.javafx.scene.c
+ontrol.behavior.Butto
+nBehavior.mouseReleas
+ed(ButtonBehavior.jav
+a:208)
+	at javafx.controls/c
+om.sun.javafx.scene.c
+ontrol.inputmap.Input
+Map.handle(InputMap.j
+ava:274)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventHandler$Norm
+alEventHandlerRecord.
+handleBubblingEvent(C
+ompositeEventHandler.
+java:247)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventHandler.disp
+atchBubblingEvent(Com
+positeEventHandler.ja
+va:80)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:2
+34)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:1
+91)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventDispatcher.d
+ispatchBubblingEvent(
+CompositeEventDispatc
+her.java:59)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:58)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEventImpl(Ev
+entUtil.java:74)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEvent(EventU
+til.java:54)
+	at javafx.base/javaf
+x.event.Event.fireEve
+nt(Event.java:198)
+	at javafx.graphics/j
+avafx.scene.Scene$Mou
+seHandler.process(Sce
+ne.java:3897)
+	at javafx.graphics/j
+avafx.scene.Scene.pro
+cessMouseEvent(Scene.
+java:1878)
+	at javafx.graphics/j
+avafx.scene.Scene$Sce
+nePeerListener.mouseE
+vent(Scene.java:2623)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler$MouseEventNotifi
+cation.run(GlassViewE
+ventHandler.java:411)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler$MouseEventNotifi
+cation.run(GlassViewE
+ventHandler.java:301)
+	at java.base/java.se
+curity.AccessControll
+er.doPrivileged(Acces
+sController.java:138)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler.lambda$handleMou
+seEvent$2(GlassViewEv
+entHandler.java:450)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.QuantumToolkit.ru
+nWithoutRenderLock(Qu
+antumToolkit.java:424
+)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler.handleMouseEvent
+(GlassViewEventHandle
+r.java:449)
+	at javafx.graphics/c
+om.sun.glass.ui.View.
+handleMouseEvent(View
+.java:557)
+	at javafx.graphics/c
+om.sun.glass.ui.View.
+notifyMouse(View.java
+:943)
+	at javafx.graphics/c
+om.sun.glass.ui.win.W
+inApplication._runLoo
+p(Native Method)
+	at javafx.graphics/c
+om.sun.glass.ui.win.W
+inApplication.lambda$
+runLoop$3(WinApplicat
+ion.java:184)
+	at java.base/java.la
+ng.Thread.run(Thread.
+java:1474)
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.passwordHash,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0
+javafx.fxml.LoadExcep
+tion: Error 
+resolving onAction='#
+handleAddProduct', 
+either the event 
+handler is not in 
+the Namespace or 
+there is an error in 
+the script.
+/C:/Users/nabil/Deskt
+op/jfx/target/classes
+/view/dashboard.fxml:
+42
+
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.con
+structLoadException(F
+XMLLoader.java:2710)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Ele
+ment.processEventHand
+lerAttributes(FXMLLoa
+der.java:621)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Val
+ueElement.processEndE
+lement(FXMLLoader.jav
+a:781)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.pro
+cessEndElement(FXMLLo
+ader.java:2961)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+dImpl(FXMLLoader.java
+:2646)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+dImpl(FXMLLoader.java
+:2555)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+d(FXMLLoader.java:252
+3)
+	at com.stockSystem.c
+ontroller.LoginContro
+ller.loadDashboard(Lo
+ginController.java:56
+)
+	at com.stockSystem.c
+ontroller.LoginContro
+ller.handleLogin(Logi
+nController.java:47)
+	at java.base/jdk.int
+ernal.reflect.DirectM
+ethodHandleAccessor.i
+nvoke(DirectMethodHan
+dleAccessor.java:104)
+	at java.base/java.la
+ng.reflect.Method.inv
+oke(Method.java:565)
+	at com.sun.javafx.re
+flect.Trampoline.invo
+ke(MethodUtil.java:77
+)
+	at java.base/jdk.int
+ernal.reflect.DirectM
+ethodHandleAccessor.i
+nvoke(DirectMethodHan
+dleAccessor.java:104)
+	at java.base/java.la
+ng.reflect.Method.inv
+oke(Method.java:565)
+	at javafx.base/com.s
+un.javafx.reflect.Met
+hodUtil.invoke(Method
+Util.java:275)
+	at javafx.fxml/com.s
+un.javafx.fxml.Method
+Helper.invoke(MethodH
+elper.java:84)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Met
+hodHandler.invoke(FXM
+LLoader.java:1854)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Con
+trollerMethodEventHan
+dler.handle(FXMLLoade
+r.java:1724)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventHandler.disp
+atchBubblingEvent(Com
+positeEventHandler.ja
+va:86)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:2
+34)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:1
+91)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventDispatcher.d
+ispatchBubblingEvent(
+CompositeEventDispatc
+her.java:59)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:58)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEventImpl(Ev
+entUtil.java:74)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEvent(EventU
+til.java:49)
+	at javafx.base/javaf
+x.event.Event.fireEve
+nt(Event.java:198)
+	at javafx.graphics/j
+avafx.scene.Node.fire
+Event(Node.java:8792)
+	at javafx.controls/j
+avafx.scene.control.B
+utton.fire(Button.jav
+a:203)
+	at javafx.controls/c
+om.sun.javafx.scene.c
+ontrol.behavior.Butto
+nBehavior.mouseReleas
+ed(ButtonBehavior.jav
+a:208)
+	at javafx.controls/c
+om.sun.javafx.scene.c
+ontrol.inputmap.Input
+Map.handle(InputMap.j
+ava:274)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventHandler$Norm
+alEventHandlerRecord.
+handleBubblingEvent(C
+ompositeEventHandler.
+java:247)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventHandler.disp
+atchBubblingEvent(Com
+positeEventHandler.ja
+va:80)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:2
+34)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:1
+91)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventDispatcher.d
+ispatchBubblingEvent(
+CompositeEventDispatc
+her.java:59)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:58)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEventImpl(Ev
+entUtil.java:74)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEvent(EventU
+til.java:54)
+	at javafx.base/javaf
+x.event.Event.fireEve
+nt(Event.java:198)
+	at javafx.graphics/j
+avafx.scene.Scene$Mou
+seHandler.process(Sce
+ne.java:3897)
+	at javafx.graphics/j
+avafx.scene.Scene.pro
+cessMouseEvent(Scene.
+java:1878)
+	at javafx.graphics/j
+avafx.scene.Scene$Sce
+nePeerListener.mouseE
+vent(Scene.java:2623)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler$MouseEventNotifi
+cation.run(GlassViewE
+ventHandler.java:411)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler$MouseEventNotifi
+cation.run(GlassViewE
+ventHandler.java:301)
+	at java.base/java.se
+curity.AccessControll
+er.doPrivileged(Acces
+sController.java:138)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler.lambda$handleMou
+seEvent$2(GlassViewEv
+entHandler.java:450)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.QuantumToolkit.ru
+nWithoutRenderLock(Qu
+antumToolkit.java:424
+)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler.handleMouseEvent
+(GlassViewEventHandle
+r.java:449)
+	at javafx.graphics/c
+om.sun.glass.ui.View.
+handleMouseEvent(View
+.java:557)
+	at javafx.graphics/c
+om.sun.glass.ui.View.
+notifyMouse(View.java
+:943)
+	at javafx.graphics/c
+om.sun.glass.ui.win.W
+inApplication._runLoo
+p(Native Method)
+	at javafx.graphics/c
+om.sun.glass.ui.win.W
+inApplication.lambda$
+runLoop$3(WinApplicat
+ion.java:184)
+	at java.base/java.la
+ng.Thread.run(Thread.
+java:1474)
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.passwordHash,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0
+javafx.fxml.LoadExcep
+tion: Error 
+resolving onAction='#
+handleAddProduct', 
+either the event 
+handler is not in 
+the Namespace or 
+there is an error in 
+the script.
+/C:/Users/nabil/Deskt
+op/jfx/target/classes
+/view/dashboard.fxml:
+42
+
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.con
+structLoadException(F
+XMLLoader.java:2710)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Ele
+ment.processEventHand
+lerAttributes(FXMLLoa
+der.java:621)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Val
+ueElement.processEndE
+lement(FXMLLoader.jav
+a:781)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.pro
+cessEndElement(FXMLLo
+ader.java:2961)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+dImpl(FXMLLoader.java
+:2646)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+dImpl(FXMLLoader.java
+:2555)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+d(FXMLLoader.java:252
+3)
+	at com.stockSystem.c
+ontroller.LoginContro
+ller.loadDashboard(Lo
+ginController.java:56
+)
+	at com.stockSystem.c
+ontroller.LoginContro
+ller.handleLogin(Logi
+nController.java:47)
+	at java.base/jdk.int
+ernal.reflect.DirectM
+ethodHandleAccessor.i
+nvoke(DirectMethodHan
+dleAccessor.java:104)
+	at java.base/java.la
+ng.reflect.Method.inv
+oke(Method.java:565)
+	at com.sun.javafx.re
+flect.Trampoline.invo
+ke(MethodUtil.java:77
+)
+	at java.base/jdk.int
+ernal.reflect.DirectM
+ethodHandleAccessor.i
+nvoke(DirectMethodHan
+dleAccessor.java:104)
+	at java.base/java.la
+ng.reflect.Method.inv
+oke(Method.java:565)
+	at javafx.base/com.s
+un.javafx.reflect.Met
+hodUtil.invoke(Method
+Util.java:275)
+	at javafx.fxml/com.s
+un.javafx.fxml.Method
+Helper.invoke(MethodH
+elper.java:84)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Met
+hodHandler.invoke(FXM
+LLoader.java:1854)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Con
+trollerMethodEventHan
+dler.handle(FXMLLoade
+r.java:1724)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventHandler.disp
+atchBubblingEvent(Com
+positeEventHandler.ja
+va:86)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:2
+34)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:1
+91)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventDispatcher.d
+ispatchBubblingEvent(
+CompositeEventDispatc
+her.java:59)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:58)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEventImpl(Ev
+entUtil.java:74)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEvent(EventU
+til.java:49)
+	at javafx.base/javaf
+x.event.Event.fireEve
+nt(Event.java:198)
+	at javafx.graphics/j
+avafx.scene.Node.fire
+Event(Node.java:8792)
+	at javafx.controls/j
+avafx.scene.control.B
+utton.fire(Button.jav
+a:203)
+	at javafx.controls/c
+om.sun.javafx.scene.c
+ontrol.behavior.Butto
+nBehavior.mouseReleas
+ed(ButtonBehavior.jav
+a:208)
+	at javafx.controls/c
+om.sun.javafx.scene.c
+ontrol.inputmap.Input
+Map.handle(InputMap.j
+ava:274)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventHandler$Norm
+alEventHandlerRecord.
+handleBubblingEvent(C
+ompositeEventHandler.
+java:247)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventHandler.disp
+atchBubblingEvent(Com
+positeEventHandler.ja
+va:80)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:2
+34)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:1
+91)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventDispatcher.d
+ispatchBubblingEvent(
+CompositeEventDispatc
+her.java:59)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:58)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEventImpl(Ev
+entUtil.java:74)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEvent(EventU
+til.java:54)
+	at javafx.base/javaf
+x.event.Event.fireEve
+nt(Event.java:198)
+	at javafx.graphics/j
+avafx.scene.Scene$Mou
+seHandler.process(Sce
+ne.java:3897)
+	at javafx.graphics/j
+avafx.scene.Scene.pro
+cessMouseEvent(Scene.
+java:1878)
+	at javafx.graphics/j
+avafx.scene.Scene$Sce
+nePeerListener.mouseE
+vent(Scene.java:2623)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler$MouseEventNotifi
+cation.run(GlassViewE
+ventHandler.java:411)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler$MouseEventNotifi
+cation.run(GlassViewE
+ventHandler.java:301)
+	at java.base/java.se
+curity.AccessControll
+er.doPrivileged(Acces
+sController.java:138)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler.lambda$handleMou
+seEvent$2(GlassViewEv
+entHandler.java:450)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.QuantumToolkit.ru
+nWithoutRenderLock(Qu
+antumToolkit.java:424
+)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler.handleMouseEvent
+(GlassViewEventHandle
+r.java:449)
+	at javafx.graphics/c
+om.sun.glass.ui.View.
+handleMouseEvent(View
+.java:557)
+	at javafx.graphics/c
+om.sun.glass.ui.View.
+notifyMouse(View.java
+:943)
+	at javafx.graphics/c
+om.sun.glass.ui.win.W
+inApplication._runLoo
+p(Native Method)
+	at javafx.graphics/c
+om.sun.glass.ui.win.W
+inApplication.lambda$
+runLoop$3(WinApplicat
+ion.java:184)
+	at java.base/java.la
+ng.Thread.run(Thread.
+java:1474)
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.passwordHash,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0
+javafx.fxml.LoadExcep
+tion: Error 
+resolving onAction='#
+handleAddProduct', 
+either the event 
+handler is not in 
+the Namespace or 
+there is an error in 
+the script.
+/C:/Users/nabil/Deskt
+op/jfx/target/classes
+/view/dashboard.fxml:
+42
+
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.con
+structLoadException(F
+XMLLoader.java:2710)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Ele
+ment.processEventHand
+lerAttributes(FXMLLoa
+der.java:621)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Val
+ueElement.processEndE
+lement(FXMLLoader.jav
+a:781)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.pro
+cessEndElement(FXMLLo
+ader.java:2961)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+dImpl(FXMLLoader.java
+:2646)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+dImpl(FXMLLoader.java
+:2555)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+d(FXMLLoader.java:252
+3)
+	at com.stockSystem.c
+ontroller.LoginContro
+ller.loadDashboard(Lo
+ginController.java:56
+)
+	at com.stockSystem.c
+ontroller.LoginContro
+ller.handleLogin(Logi
+nController.java:47)
+	at java.base/jdk.int
+ernal.reflect.DirectM
+ethodHandleAccessor.i
+nvoke(DirectMethodHan
+dleAccessor.java:104)
+	at java.base/java.la
+ng.reflect.Method.inv
+oke(Method.java:565)
+	at com.sun.javafx.re
+flect.Trampoline.invo
+ke(MethodUtil.java:77
+)
+	at java.base/jdk.int
+ernal.reflect.DirectM
+ethodHandleAccessor.i
+nvoke(DirectMethodHan
+dleAccessor.java:104)
+	at java.base/java.la
+ng.reflect.Method.inv
+oke(Method.java:565)
+	at javafx.base/com.s
+un.javafx.reflect.Met
+hodUtil.invoke(Method
+Util.java:275)
+	at javafx.fxml/com.s
+un.javafx.fxml.Method
+Helper.invoke(MethodH
+elper.java:84)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Met
+hodHandler.invoke(FXM
+LLoader.java:1854)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Con
+trollerMethodEventHan
+dler.handle(FXMLLoade
+r.java:1724)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventHandler.disp
+atchBubblingEvent(Com
+positeEventHandler.ja
+va:86)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:2
+34)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:1
+91)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventDispatcher.d
+ispatchBubblingEvent(
+CompositeEventDispatc
+her.java:59)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:58)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEventImpl(Ev
+entUtil.java:74)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEvent(EventU
+til.java:49)
+	at javafx.base/javaf
+x.event.Event.fireEve
+nt(Event.java:198)
+	at javafx.graphics/j
+avafx.scene.Node.fire
+Event(Node.java:8792)
+	at javafx.controls/j
+avafx.scene.control.B
+utton.fire(Button.jav
+a:203)
+	at javafx.controls/c
+om.sun.javafx.scene.c
+ontrol.behavior.Butto
+nBehavior.mouseReleas
+ed(ButtonBehavior.jav
+a:208)
+	at javafx.controls/c
+om.sun.javafx.scene.c
+ontrol.inputmap.Input
+Map.handle(InputMap.j
+ava:274)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventHandler$Norm
+alEventHandlerRecord.
+handleBubblingEvent(C
+ompositeEventHandler.
+java:247)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventHandler.disp
+atchBubblingEvent(Com
+positeEventHandler.ja
+va:80)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:2
+34)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:1
+91)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventDispatcher.d
+ispatchBubblingEvent(
+CompositeEventDispatc
+her.java:59)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:58)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEventImpl(Ev
+entUtil.java:74)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEvent(EventU
+til.java:54)
+	at javafx.base/javaf
+x.event.Event.fireEve
+nt(Event.java:198)
+	at javafx.graphics/j
+avafx.scene.Scene$Mou
+seHandler.process(Sce
+ne.java:3897)
+	at javafx.graphics/j
+avafx.scene.Scene.pro
+cessMouseEvent(Scene.
+java:1878)
+	at javafx.graphics/j
+avafx.scene.Scene$Sce
+nePeerListener.mouseE
+vent(Scene.java:2623)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler$MouseEventNotifi
+cation.run(GlassViewE
+ventHandler.java:411)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler$MouseEventNotifi
+cation.run(GlassViewE
+ventHandler.java:301)
+	at java.base/java.se
+curity.AccessControll
+er.doPrivileged(Acces
+sController.java:138)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler.lambda$handleMou
+seEvent$2(GlassViewEv
+entHandler.java:450)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.QuantumToolkit.ru
+nWithoutRenderLock(Qu
+antumToolkit.java:424
+)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler.handleMouseEvent
+(GlassViewEventHandle
+r.java:449)
+	at javafx.graphics/c
+om.sun.glass.ui.View.
+handleMouseEvent(View
+.java:557)
+	at javafx.graphics/c
+om.sun.glass.ui.View.
+notifyMouse(View.java
+:943)
+	at javafx.graphics/c
+om.sun.glass.ui.win.W
+inApplication._runLoo
+p(Native Method)
+	at javafx.graphics/c
+om.sun.glass.ui.win.W
+inApplication.lambda$
+runLoop$3(WinApplicat
+ion.java:184)
+	at java.base/java.la
+ng.Thread.run(Thread.
+java:1474)
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.passwordHash,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0
+javafx.fxml.LoadExcep
+tion: Error 
+resolving onAction='#
+handleAddProduct', 
+either the event 
+handler is not in 
+the Namespace or 
+there is an error in 
+the script.
+/C:/Users/nabil/Deskt
+op/jfx/target/classes
+/view/dashboard.fxml:
+42
+
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.con
+structLoadException(F
+XMLLoader.java:2710)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Ele
+ment.processEventHand
+lerAttributes(FXMLLoa
+der.java:621)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Val
+ueElement.processEndE
+lement(FXMLLoader.jav
+a:781)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.pro
+cessEndElement(FXMLLo
+ader.java:2961)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+dImpl(FXMLLoader.java
+:2646)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+dImpl(FXMLLoader.java
+:2555)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader.loa
+d(FXMLLoader.java:252
+3)
+	at com.stockSystem.c
+ontroller.LoginContro
+ller.loadDashboard(Lo
+ginController.java:56
+)
+	at com.stockSystem.c
+ontroller.LoginContro
+ller.handleLogin(Logi
+nController.java:47)
+	at java.base/jdk.int
+ernal.reflect.DirectM
+ethodHandleAccessor.i
+nvoke(DirectMethodHan
+dleAccessor.java:104)
+	at java.base/java.la
+ng.reflect.Method.inv
+oke(Method.java:565)
+	at com.sun.javafx.re
+flect.Trampoline.invo
+ke(MethodUtil.java:77
+)
+	at java.base/jdk.int
+ernal.reflect.DirectM
+ethodHandleAccessor.i
+nvoke(DirectMethodHan
+dleAccessor.java:104)
+	at java.base/java.la
+ng.reflect.Method.inv
+oke(Method.java:565)
+	at javafx.base/com.s
+un.javafx.reflect.Met
+hodUtil.invoke(Method
+Util.java:275)
+	at javafx.fxml/com.s
+un.javafx.fxml.Method
+Helper.invoke(MethodH
+elper.java:84)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Met
+hodHandler.invoke(FXM
+LLoader.java:1854)
+	at javafx.fxml/javaf
+x.fxml.FXMLLoader$Con
+trollerMethodEventHan
+dler.handle(FXMLLoade
+r.java:1724)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventHandler.disp
+atchBubblingEvent(Com
+positeEventHandler.ja
+va:86)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:2
+34)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:1
+91)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventDispatcher.d
+ispatchBubblingEvent(
+CompositeEventDispatc
+her.java:59)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:58)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEventImpl(Ev
+entUtil.java:74)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEvent(EventU
+til.java:49)
+	at javafx.base/javaf
+x.event.Event.fireEve
+nt(Event.java:198)
+	at javafx.graphics/j
+avafx.scene.Node.fire
+Event(Node.java:8792)
+	at javafx.controls/j
+avafx.scene.control.B
+utton.fire(Button.jav
+a:203)
+	at javafx.controls/c
+om.sun.javafx.scene.c
+ontrol.behavior.Butto
+nBehavior.mouseReleas
+ed(ButtonBehavior.jav
+a:208)
+	at javafx.controls/c
+om.sun.javafx.scene.c
+ontrol.inputmap.Input
+Map.handle(InputMap.j
+ava:274)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventHandler$Norm
+alEventHandlerRecord.
+handleBubblingEvent(C
+ompositeEventHandler.
+java:247)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventHandler.disp
+atchBubblingEvent(Com
+positeEventHandler.ja
+va:80)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:2
+34)
+	at javafx.base/com.s
+un.javafx.event.Event
+HandlerManager.dispat
+chBubblingEvent(Event
+HandlerManager.java:1
+91)
+	at javafx.base/com.s
+un.javafx.event.Compo
+siteEventDispatcher.d
+ispatchBubblingEvent(
+CompositeEventDispatc
+her.java:59)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:58)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Basic
+EventDispatcher.dispa
+tchEvent(BasicEventDi
+spatcher.java:56)
+	at javafx.base/com.s
+un.javafx.event.Event
+DispatchChainImpl.dis
+patchEvent(EventDispa
+tchChainImpl.java:114
+)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEventImpl(Ev
+entUtil.java:74)
+	at javafx.base/com.s
+un.javafx.event.Event
+Util.fireEvent(EventU
+til.java:54)
+	at javafx.base/javaf
+x.event.Event.fireEve
+nt(Event.java:198)
+	at javafx.graphics/j
+avafx.scene.Scene$Mou
+seHandler.process(Sce
+ne.java:3897)
+	at javafx.graphics/j
+avafx.scene.Scene.pro
+cessMouseEvent(Scene.
+java:1878)
+	at javafx.graphics/j
+avafx.scene.Scene$Sce
+nePeerListener.mouseE
+vent(Scene.java:2623)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler$MouseEventNotifi
+cation.run(GlassViewE
+ventHandler.java:411)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler$MouseEventNotifi
+cation.run(GlassViewE
+ventHandler.java:301)
+	at java.base/java.se
+curity.AccessControll
+er.doPrivileged(Acces
+sController.java:138)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler.lambda$handleMou
+seEvent$2(GlassViewEv
+entHandler.java:450)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.QuantumToolkit.ru
+nWithoutRenderLock(Qu
+antumToolkit.java:424
+)
+	at javafx.graphics/c
+om.sun.javafx.tk.quan
+tum.GlassViewEventHan
+dler.handleMouseEvent
+(GlassViewEventHandle
+r.java:449)
+	at javafx.graphics/c
+om.sun.glass.ui.View.
+handleMouseEvent(View
+.java:557)
+	at javafx.graphics/c
+om.sun.glass.ui.View.
+notifyMouse(View.java
+:943)
+	at javafx.graphics/c
+om.sun.glass.ui.win.W
+inApplication._runLoo
+p(Native Method)
+	at javafx.graphics/c
+om.sun.glass.ui.win.W
+inApplication.lambda$
+runLoop$3(WinApplicat
+ion.java:184)
+	at java.base/java.la
+ng.Thread.run(Thread.
+java:1474)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  46.844 s
+[INFO] Finished at: 2026-01-06T17:49:12+01:00
+[INFO] ------------------------------------------------------------------------

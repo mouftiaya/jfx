@@ -1,0 +1,368 @@
+﻿mvn.cmd : WARNING: A 
+restricted method in 
+java.lang.System has 
+been called
+At line:1 char:1
++ & "C:\Program Files
+\JetBrains\IntelliJ 
+IDEA 2025.2.4\plugins
+\maven\li ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (WARNING   
+ : A rest...has b    
+een called:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+WARNING: java.lang.Sy
+stem::load has been 
+called by org.fusesou
+rce.jansi.internal.Ja
+nsiLoader in an 
+unnamed module (file:
+/C:/Program%20Files/J
+etBrains/IntelliJ%20I
+DEA%202025.2.4/plugin
+s/maven/lib/maven3/li
+b/jansi-2.4.1.jar)
+WARNING: Use --enable
+-native-access=ALL-UN
+NAMED to avoid a 
+warning for callers 
+in this module
+WARNING: Restricted 
+methods will be 
+blocked in a future 
+release unless 
+native access is 
+enabled
+
+WARNING: A 
+terminally 
+deprecated method in 
+sun.misc.Unsafe has 
+been called
+WARNING: sun.misc.Uns
+afe::objectFieldOffse
+t has been called by 
+com.google.common.uti
+l.concurrent.Abstract
+Future$UnsafeAtomicHe
+lper (file:/C:/Progra
+m%20Files/JetBrains/I
+ntelliJ%20IDEA%202025
+.2.4/plugins/maven/li
+b/maven3/lib/guava-33
+.2.1-jre.jar)
+WARNING: Please 
+consider reporting 
+this to the 
+maintainers of class 
+com.google.common.uti
+l.concurrent.Abstract
+Future$UnsafeAtomicHe
+lper
+WARNING: sun.misc.Uns
+afe::objectFieldOffse
+t will be removed in 
+a future release
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.stockSystem:stock-management-system >---------------
+[INFO] Building stock-management-system 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] 6 problems were encountered while building the effective model for org.openjfx:javafx-controls:jar:17.0.8 during dependency collection step for project (use -X to see details)
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ stock-management-system ---
+[INFO] Deleting C:\Users\nabil\Desktop\jfx\target
+[INFO] 
+[INFO] >>> javafx:0.0.8:run (default-cli) > process-classes @ stock-management-system >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ stock-management-system ---
+[INFO] Copying 6 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ stock-management-system ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 28 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] <<< javafx:0.0.8:run (default-cli) < process-classes @ stock-management-system <<<
+[INFO] 
+[INFO] 
+[INFO] --- javafx:0.0.8:run (default-cli) @ stock-management-system ---
+WARNING: A 
+restricted method in 
+java.lang.System has 
+been called
+WARNING: java.lang.Sy
+stem::load has been 
+called by com.sun.gla
+ss.utils.NativeLibLoa
+der in module 
+javafx.graphics (file
+:/C:/Users/nabil/.m2/
+repository/org/openjf
+x/javafx-graphics/17.
+0.8/javafx-graphics-1
+7.0.8-win.jar)
+WARNING: Use --enable
+-native-access=javafx
+.graphics to avoid a 
+warning for callers 
+in this module
+WARNING: Restricted 
+methods will be 
+blocked in a future 
+release unless 
+native access is 
+enabled
+
+Jan 06, 2026 5:28:45 
+PM org.hibernate.jpa.
+internal.util.LogHelp
+er logPersistenceUnit
+Information
+INFO: HHH000204: 
+Processing 
+PersistenceUnitInfo 
+[name: stock-manageme
+nt-unit]
+Jan 06, 2026 5:28:45 
+PM org.hibernate.Vers
+ion logVersion
+INFO: HHH000412: 
+Hibernate ORM core 
+version 6.4.1.Final
+Jan 06, 2026 5:28:45 
+PM org.hibernate.cach
+e.internal.RegionFact
+oryInitiator 
+initiateService
+INFO: HHH000026: 
+Second-level cache 
+disabled
+Jan 06, 2026 5:28:45 
+PM org.hibernate.engi
+ne.jdbc.connections.i
+nternal.DriverManager
+ConnectionProviderImp
+l configure
+WARN: HHH10001002: 
+Using built-in 
+connection pool (not 
+intended for 
+production use)
+Jan 06, 2026 5:28:45 
+PM org.hibernate.engi
+ne.jdbc.connections.i
+nternal.DriverManager
+ConnectionProviderImp
+l buildCreator
+INFO: HHH10001005: 
+Loaded JDBC driver 
+class: com.mysql.cj.j
+dbc.Driver
+Jan 06, 2026 5:28:45 
+PM org.hibernate.engi
+ne.jdbc.connections.i
+nternal.DriverManager
+ConnectionProviderImp
+l buildCreator
+INFO: HHH10001012: 
+Connecting with JDBC 
+URL [jdbc:mysql://loc
+alhost:3306/stock_db?
+createDatabaseIfNotEx
+ist=true]
+Jan 06, 2026 5:28:45 
+PM org.hibernate.engi
+ne.jdbc.connections.i
+nternal.DriverManager
+ConnectionProviderImp
+l buildCreator
+INFO: HHH10001001: 
+Connection 
+properties: 
+{user=root, 
+password=****}
+Jan 06, 2026 5:28:45 
+PM org.hibernate.engi
+ne.jdbc.connections.i
+nternal.DriverManager
+ConnectionProviderImp
+l buildCreator
+INFO: HHH10001003: 
+Autocommit mode: 
+false
+Jan 06, 2026 5:28:45 
+PM org.hibernate.engi
+ne.jdbc.connections.i
+nternal.DriverManager
+ConnectionProviderImp
+l$PooledConnections 
+<init>
+INFO: HHH10001115: 
+Connection pool 
+size: 20 (min=1)
+Jan 06, 2026 5:28:46 
+PM org.hibernate.engi
+ne.jdbc.dialect.inter
+nal.DialectFactoryImp
+l constructDialect
+WARN: HHH90000025: 
+MySQLDialect does 
+not need to be 
+specified explicitly 
+using 
+'hibernate.dialect' 
+(remove the property 
+setting and it will 
+be selected by 
+default)
+Jan 06, 2026 5:28:47 
+PM org.hibernate.engi
+ne.transaction.jta.pl
+atform.internal.JtaPl
+atformInitiator 
+initiateService
+INFO: HHH000489: No 
+JTA platform 
+available (set 'hiber
+nate.transaction.jta.
+platform' to enable 
+JTA platform 
+integration)
+Jan 06, 2026 5:28:47 
+PM org.hibernate.reso
+urce.transaction.back
+end.jdbc.internal.Ddl
+TransactionIsolatorNo
+nJtaImpl 
+getIsolatedConnection
+INFO: HHH10001501: 
+Connection obtained 
+from 
+JdbcConnectionAccess 
+[org.hibernate.engine
+.jdbc.env.internal.Jd
+bcEnvironmentInitiato
+r$ConnectionProviderJ
+dbcConnectionAccess@2
+e4f62ce] for 
+(non-JTA) DDL 
+execution was not in 
+auto-commit mode; 
+the Connection 
+'local transaction' 
+will be committed 
+and the Connection 
+will be set into 
+auto-commit mode.
+Hibernate: 
+    select
+        p1_0.id,
+        p1_0.buyPrice,
+        p1_0.category_id,
+        p1_0.description,
+        p1_0.name,
+        p1_0.quantity,
+        p1_0.sellPrice,
+        p1_0.sku,
+        p1_0.supplier_id 
+    from
+        products p1_0
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.description,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.contactInfo,
+        s1_0.name 
+    from
+        suppliers s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.description,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.contactInfo,
+        s1_0.name 
+    from
+        suppliers s1_0 
+    where
+        s1_0.id=?
+Database already seeded.
+Hibernate: 
+    select
+        p1_0.id,
+        p1_0.buyPrice,
+        p1_0.category_id,
+        p1_0.description,
+        p1_0.name,
+        p1_0.quantity,
+        p1_0.sellPrice,
+        p1_0.sku,
+        p1_0.supplier_id 
+    from
+        products p1_0
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.description,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.contactInfo,
+        s1_0.name 
+    from
+        suppliers s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.description,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.contactInfo,
+        s1_0.name 
+    from
+        suppliers s1_0 
+    where
+        s1_0.id=?
