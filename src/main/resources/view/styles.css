@@ -4,8 +4,53 @@
     -fx-background-color: #f4f4f4;
 }
 
+.header {
+    -fx-background-color: #0d1b2a;
+    -fx-padding: 15px;
+}
+
+.sidebar {
+    -fx-background-color: #90caf9;
+    -fx-padding: 15px;
+}
+
+.footer {
+    -fx-background-color: #0d1b2a;
+    -fx-padding: 10px;
+}
+
+.sidebar-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #000000;
+    -fx-alignment: BASELINE_LEFT;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+}
+
+.sidebar-button:hover {
+    -fx-background-color: rgba(13, 27, 42, 0.2);
+}
+
+.sidebar-button-active {
+    -fx-background-color: rgba(13, 27, 42, 0.3);
+    -fx-text-fill: #000000;
+}
+
 .label {
     -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-padding: 30px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 5);
+    -fx-background-radius: 10;
+}
+
+.card-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
     -fx-text-fill: #333333;
 }
 
@@ -16,7 +61,7 @@
 }
 
 .table-view .column-header-background {
-    -fx-background-color: #0078d7;
+    -fx-background-color: #0d1b2a;
 }
 
 .table-view .column-header, .table-view .filler {
@@ -42,7 +87,7 @@
 }
 
 .button {
-    -fx-background-color: #0078d7;
+    -fx-background-color: #0d1b2a;
     -fx-text-fill: white;
     -fx-font-weight: bold;
     -fx-padding: 8 15 8 15;
@@ -51,11 +96,11 @@
 }
 
 .button:hover {
-    -fx-background-color: #005a9e;
+    -fx-background-color: #1b263b;
 }
 
 .button:pressed {
-    -fx-background-color: #004578;
+    -fx-background-color: #0a1625;
 }
 
 .button-bar {

@@ -20,10 +20,10 @@
     </Label>
 
     <HBox spacing="10" alignment="CENTER">
-        <Button text="Add Product" onAction="#handleAddProduct"/>
-        <Button text="Delete Product" onAction="#handleDeleteProduct" style="-fx-background-color: #d9534f;"/>
-        <Button text="Stock IN" onAction="#handleStockIn"/>
-        <Button text="Stock OUT" onAction="#handleStockOut" style="-fx-background-color: #f0ad4e;"/>
+        <Button text="Add Product" onAction="#handleAddProduct" style="-fx-background-color: #0d1b2a; -fx-text-fill: white;"/>
+        <Button text="Delete Product" onAction="#handleDeleteProduct" style="-fx-background-color: #d9534f; -fx-text-fill: white;"/>
+        <Button text="Stock IN" onAction="#handleStockIn" style="-fx-background-color: #0d1b2a; -fx-text-fill: white;"/>
+        <Button text="Stock OUT" onAction="#handleStockOut" style="-fx-background-color: #f0ad4e; -fx-text-fill: white;"/>
     </HBox>
 
     <TableView fx:id="productTable" VBox.vgrow="ALWAYS">
@@ -33,6 +33,8 @@
             <TableColumn fx:id="skuCol" prefWidth="100.0" text="SKU" />
             <TableColumn fx:id="priceCol" prefWidth="100.0" text="Price" />
             <TableColumn fx:id="quantityCol" prefWidth="100.0" text="Qty" />
+            <TableColumn fx:id="categoryCol" prefWidth="150.0" text="Category" />
+            <TableColumn fx:id="supplierCol" prefWidth="150.0" text="Supplier" />
         </columns>
         <columnResizePolicy>
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />

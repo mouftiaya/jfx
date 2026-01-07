@@ -15,6 +15,7 @@ public class Supplier {
     private String name;
 
     private String contactInfo;
+    private String address;
 
     @OneToMany(mappedBy = "supplier", cascade = CascadeType.ALL)
     private List<Product> products = new ArrayList<>();
@@ -32,6 +33,8 @@ public class Supplier {
     public void setName(String name) { this.name = name; }
     public String getContactInfo() { return contactInfo; }
     public void setContactInfo(String contactInfo) { this.contactInfo = contactInfo; }
+    public String getAddress() { return address; }
+    public void setAddress(String address) { this.address = address; }
     public List<Product> getProducts() { return products; }
     public void setProducts(List<Product> products) { this.products = products; }
 }

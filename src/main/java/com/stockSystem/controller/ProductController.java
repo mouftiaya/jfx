@@ -1,14 +1,19 @@
 package com.stockSystem.controller;
 
+import com.stockSystem.model.Category;
 import com.stockSystem.model.Product;
+import com.stockSystem.model.Supplier;
 import com.stockSystem.model.Transaction;
+import com.stockSystem.service.CategoryService;
 import com.stockSystem.service.StockService;
+import com.stockSystem.service.SupplierService;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
 import javafx.geometry.Insets;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.GridPane;
+import javafx.util.StringConverter;
 
 import java.math.BigDecimal;
 import java.util.List;
@@ -22,17 +27,31 @@ public class ProductController {
     @FXML private TableColumn<Product, String> skuCol;
     @FXML private TableColumn<Product, BigDecimal> priceCol;
     @FXML private TableColumn<Product, Integer> quantityCol;
+    @FXML private TableColumn<Product, String> categoryCol;
+    @FXML private TableColumn<Product, String> supplierCol;
 
     private StockService stockService;
+    private CategoryService categoryService;
+    private SupplierService supplierService;
 
     public void initialize() {
         stockService = new StockService();
+        categoryService = new CategoryService();
+        supplierService = new SupplierService();
 
         idCol.setCellValueFactory(new PropertyValueFactory<>("id"));
         nameCol.setCellValueFactory(new PropertyValueFactory<>("name"));
         skuCol.setCellValueFactory(new PropertyValueFactory<>("sku"));
         priceCol.setCellValueFactory(new PropertyValueFactory<>("sellPrice"));
         quantityCol.setCellValueFactory(new PropertyValueFactory<>("quantity"));
+        categoryCol.setCellValueFactory(cellData -> {
+            Category category = cellData.getValue().getCategory();
+            return new javafx.beans.property.SimpleStringProperty(category != null ? category.getName() : "No Category");
+        });
+        supplierCol.setCellValueFactory(cellData -> {
+            Supplier supplier = cellData.getValue().getSupplier();
+            return new javafx.beans.property.SimpleStringProperty(supplier != null ? supplier.getName() : "No Supplier");
+        });
 
         loadData();
     }
@@ -64,6 +83,48 @@ public class ProductController {
         price.setPromptText("Price");
         TextField quantity = new TextField();
         quantity.setPromptText("Quantity");
+        
+        ComboBox<Category> categoryCombo = new ComboBox<>();
+        List<Category> categories = categoryService.findAll();
+        categoryCombo.setItems(FXCollections.observableArrayList(categories));
+        categoryCombo.setPromptText("Select Category");
+        
+        // Set StringConverter to display category name
+        categoryCombo.setConverter(new StringConverter<Category>() {
+            @Override
+            public String toString(Category category) {
+                return category == null ? null : category.getName();
+            }
+
+            @Override
+            public Category fromString(String string) {
+                return categories.stream()
+                    .filter(cat -> cat.getName().equals(string))
+                    .findFirst()
+                    .orElse(null);
+            }
+        });
+
+        ComboBox<Supplier> supplierCombo = new ComboBox<>();
+        List<Supplier> suppliers = supplierService.findAll();
+        supplierCombo.setItems(FXCollections.observableArrayList(suppliers));
+        supplierCombo.setPromptText("Select Supplier");
+        
+        // Set StringConverter to display supplier name
+        supplierCombo.setConverter(new StringConverter<Supplier>() {
+            @Override
+            public String toString(Supplier supplier) {
+                return supplier == null ? null : supplier.getName();
+            }
+
+            @Override
+            public Supplier fromString(String string) {
+                return suppliers.stream()
+                    .filter(sup -> sup.getName().equals(string))
+                    .findFirst()
+                    .orElse(null);
+            }
+        });
 
         grid.add(new Label("Name:"), 0, 0);
         grid.add(name, 1, 0);
@@ -73,6 +134,10 @@ public class ProductController {
         grid.add(price, 1, 2);
         grid.add(new Label("Initial Qty:"), 0, 3);
         grid.add(quantity, 1, 3);
+        grid.add(new Label("Category:"), 0, 4);
+        grid.add(categoryCombo, 1, 4);
+        grid.add(new Label("Supplier:"), 0, 5);
+        grid.add(supplierCombo, 1, 5);
 
         dialog.getDialogPane().setContent(grid);
 
@@ -84,6 +149,8 @@ public class ProductController {
                     p.setSku(sku.getText());
                     p.setSellPrice(new BigDecimal(price.getText()));
                     p.setQuantity(Integer.parseInt(quantity.getText()));
+                    p.setCategory(categoryCombo.getValue()); // Set selected category
+                    p.setSupplier(supplierCombo.getValue()); // Set selected supplier
                     return p;
                 } catch (Exception e) {
                    Alert alert = new Alert(Alert.AlertType.ERROR);
@@ -115,8 +182,14 @@ public class ProductController {
 
             Optional<ButtonType> result = alert.showAndWait();
             if (result.isPresent() && result.get() == ButtonType.OK){
-                stockService.removeProduct(selectedProduct);
-                loadData();
+                try {
+                    stockService.removeProduct(selectedProduct);
+                    loadData();
+                    showSuccessAlert("Product deleted successfully!");
+                } catch (Exception e) {
+                    showError("Failed to delete product: " + e.getMessage());
+                    e.printStackTrace();
+                }
             }
         } else {
             showNoSelectionAlert();
@@ -169,6 +242,14 @@ public class ProductController {
     private void showError(String message) {
         Alert alert = new Alert(Alert.AlertType.ERROR);
         alert.setTitle("Error");
+        alert.setHeaderText(null);
+        alert.setContentText(message);
+        alert.showAndWait();
+    }
+
+    private void showSuccessAlert(String message) {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Success");
         alert.setHeaderText(null);
         alert.setContentText(message);
         alert.showAndWait();

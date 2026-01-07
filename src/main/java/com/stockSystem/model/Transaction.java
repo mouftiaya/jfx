@@ -14,8 +14,15 @@ public class Transaction {
         IN, OUT
     }
 
+    public enum Status {
+        COMPLETED, PROCESSING, PENDING, CANCELLED
+    }
+
     @Enumerated(EnumType.STRING)
     private Type type;
+
+    @Enumerated(EnumType.STRING)
+    private Status status;
 
     private Integer quantity;
     private LocalDateTime date;
@@ -31,12 +38,15 @@ public class Transaction {
         this.quantity = quantity;
         this.relatedProduct = relatedProduct;
         this.date = LocalDateTime.now();
+        this.status = Status.COMPLETED; // Default status
     }
 
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
     public Type getType() { return type; }
     public void setType(Type type) { this.type = type; }
+    public Status getStatus() { return status; }
+    public void setStatus(Status status) { this.status = status; }
     public Integer getQuantity() { return quantity; }
     public void setQuantity(Integer quantity) { this.quantity = quantity; }
     public LocalDateTime getDate() { return date; }

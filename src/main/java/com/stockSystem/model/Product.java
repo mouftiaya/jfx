@@ -57,4 +57,9 @@ public class Product {
     public void setCategory(Category category) { this.category = category; }
     public Supplier getSupplier() { return supplier; }
     public void setSupplier(Supplier supplier) { this.supplier = supplier; }
+
+    @Override
+    public String toString() {
+        return name != null ? name : "Unnamed Product";
+    }
 }

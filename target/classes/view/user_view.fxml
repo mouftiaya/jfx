@@ -21,8 +21,8 @@
     </Label>
 
     <HBox spacing="10" alignment="CENTER">
-        <Button text="Add User" onAction="#handleAddUser"/>
-        <Button text="Delete User" onAction="#handleDeleteUser" style="-fx-background-color: #d9534f;"/>
+        <Button text="Add User" onAction="#handleAddUser" style="-fx-background-color: #0d1b2a; -fx-text-fill: white;"/>
+        <Button text="Delete User" onAction="#handleDeleteUser" style="-fx-background-color: #d9534f; -fx-text-fill: white;"/>
     </HBox>
 
     <TableView fx:id="userTable" VBox.vgrow="ALWAYS">

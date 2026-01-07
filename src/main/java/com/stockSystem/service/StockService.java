@@ -27,7 +27,33 @@ public class StockService {
     }
 
     public void removeProduct(Product product) {
-        productDAO.delete(product);
+        try {
+            // Get the product from database to ensure it's managed
+            Product productToDelete = productDAO.findById(product.getId());
+            if (productToDelete == null) {
+                throw new RuntimeException("Product not found");
+            }
+            
+            // First, delete all transactions associated with this product
+            List<Transaction> transactions = transactionDAO.findAll();
+            for (Transaction transaction : transactions) {
+                if (transaction.getRelatedProduct() != null && 
+                    transaction.getRelatedProduct().getId() != null &&
+                    transaction.getRelatedProduct().getId().equals(productToDelete.getId())) {
+                    transactionDAO.delete(transaction);
+                }
+            }
+            
+            // Remove product from category and supplier relationships
+            productToDelete.setCategory(null);
+            productToDelete.setSupplier(null);
+            productDAO.update(productToDelete);
+            
+            // Then delete the product
+            productDAO.delete(productToDelete);
+        } catch (Exception e) {
+            throw new RuntimeException("Failed to delete product: " + e.getMessage(), e);
+        }
     }
 
     public void recordTransaction(Product product, Transaction.Type type, int quantity) {
@@ -45,6 +71,7 @@ public class StockService {
 
         // Record transaction
         Transaction transaction = new Transaction(type, quantity, product);
+        transaction.setStatus(Transaction.Status.COMPLETED); // Set default status
         transactionDAO.save(transaction);
     }
 }

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox spacing="20.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@styles.css">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <HBox spacing="20.0">
+        <!-- Transaction Information Card -->
+        <VBox styleClass="card" spacing="10" prefWidth="350">
+            <Label text="Transaction Information" styleClass="card-title" />
+            <VBox spacing="8">
+                <Label text="Type: SALE" />
+                <Label text="Status: COMPLETED" />
+                <Label text="Description: " />
+                <Label text="Note: " />
+                <Label text="Total Products: 9" />
+                <Label text="Total Price: 810.00" />
+                <Label text="Create AT: 9/13/2025, 6:43:35 PM" />
+            </VBox>
+        </VBox>
+
+        <!-- Product Information Card -->
+        <VBox styleClass="card" spacing="10" prefWidth="350">
+            <Label text="Product Information" styleClass="card-title" />
+            <HBox spacing="15">
+                <VBox spacing="8">
+                    <Label text="Name: Samsung 500GB SSD" />
+                    <Label text="SKU: Samsung 500GB SSD" />
+                    <Label text="Price: 90.00" />
+                    <Label text="Stock Quantity: 11" />
+                    <Label text="Description: SSD 500GB, SATA III, haute vitesse" wrapText="true" />
+                </VBox>
+            </HBox>
+        </VBox>
+
+        <!-- User Information Card -->
+        <VBox styleClass="card" spacing="10" prefWidth="350">
+            <Label text="User Information" styleClass="card-title" />
+            <VBox spacing="8">
+                <Label text="Name: FATEN KARKOURI" />
+                <Label text="Email: jk@example.com" />
+                <Label text="Phone Number: 0664116282" />
+                <Label text="Role: MANAGER" />
+                <Label text="Create AT: 9/13/2025, 6:43:35 PM" />
+            </VBox>
+        </VBox>
+    </HBox>
+</VBox>

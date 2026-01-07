@@ -5,34 +5,41 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="TOP_CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.stockSystem.controller.SupplierController" stylesheets="@styles.css">
+<VBox spacing="15.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.stockSystem.controller.SupplierController" stylesheets="@styles.css">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
 
-    <Label text="Supplier Management">
-        <font>
-            <Font size="24.0" />
-        </font>
+    <Label text="Suppliers" style="-fx-font-size: 24px; -fx-font-weight: bold;">
+        <VBox.margin>
+            <Insets bottom="10.0" />
+        </VBox.margin>
     </Label>
 
-    <HBox spacing="10" alignment="CENTER">
-        <Button text="Add Supplier" onAction="#handleAddSupplier"/>
-        <Button text="Delete Supplier" onAction="#handleDeleteSupplier" style="-fx-background-color: #d9534f;"/>
+    <HBox spacing="10" alignment="CENTER_LEFT">
+        <TextField fx:id="searchField" promptText="Search suppliers..." prefWidth="200.0" />
+        <HBox HBox.hgrow="ALWAYS" />
+        <Button text="Add Supplier" onAction="#handleAddSupplier" style="-fx-background-color: #0d1b2a; -fx-text-fill: white;" />
     </HBox>
 
-    <TableView fx:id="supplierTable" VBox.vgrow="ALWAYS">
+    <TableView fx:id="supplierTable" VBox.vgrow="ALWAYS" styleClass="table-view">
         <columns>
-            <TableColumn fx:id="idCol" prefWidth="50.0" text="ID" />
-            <TableColumn fx:id="nameCol" prefWidth="200.0" text="Name" />
-            <TableColumn fx:id="contactCol" prefWidth="300.0" text="Contact Info" />
+            <TableColumn fx:id="nameCol" text="Supplier Name" prefWidth="400.0" />
         </columns>
         <columnResizePolicy>
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
         </columnResizePolicy>
     </TableView>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="« Prev" style="-fx-background-color: #cccccc; -fx-text-fill: black;" />
+        <Button text="1" style="-fx-background-color: #0d1b2a; -fx-text-fill: white;" />
+        <Button text="2" style="-fx-background-color: white; -fx-text-fill: black;" />
+        <Button text="Next »" style="-fx-background-color: #0d1b2a; -fx-text-fill: white;" />
+    </HBox>
 </VBox>

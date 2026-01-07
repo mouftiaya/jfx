@@ -15,8 +15,8 @@ public class DashboardController {
     @FXML private VBox contentArea;
 
     public void initialize() {
-        // Load Product View by default
-        showProducts();
+        // Load Dashboard View by default
+        showDashboard();
     }
 
     @FXML
@@ -37,6 +37,37 @@ public class DashboardController {
     @FXML
     private void showUsers() {
         loadView("user_view");
+    }
+
+    @FXML
+    private void showPurchase() {
+        loadView("purchase_view");
+    }
+
+    @FXML
+    private void showSell() {
+        loadView("sell_view");
+    }
+
+    @FXML
+    private void showDashboard() {
+        loadView("dashboard_content");
+    }
+
+    @FXML
+    private void showTransactions() {
+        loadView("transactions_view");
+    }
+
+    @FXML
+    private void showProfile() {
+        loadView("profile_view");
+    }
+
+    @FXML
+    private void logout() {
+        // TODO: Implement logout functionality
+        showAlert("Logout functionality not implemented yet");
     }
 
     private void loadView(String fxml) {
@@ -67,6 +98,14 @@ public class DashboardController {
     private void showError(String message) {
         Alert alert = new Alert(Alert.AlertType.ERROR);
         alert.setTitle("Error");
+        alert.setHeaderText(null);
+        alert.setContentText(message);
+        alert.showAndWait();
+    }
+
+    private void showAlert(String message) {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Information");
         alert.setHeaderText(null);
         alert.setContentText(message);
         alert.showAndWait();
